@@ -1,0 +1,53 @@
+export default class kindergartenLevels
+{
+    constructor()
+    {
+    }
+
+    getKindergartenLevels()
+    {
+        return [
+            {
+                "level":"1",
+                "round":"2",
+                "show":"uppercase",
+                "letters":"4",
+                "zone":"3",
+                "type":"uppercase"
+            },
+            {
+                "level":"2",
+                "round":"2",
+                "show":"uppercase",
+                "letters":"6",
+                "zone":"3",
+                "type":"uppercase"
+            },
+            {
+                "level":"3",
+                "round":"2",
+                "show":"uppercase",
+                "letters":"8",
+                "zone":"3",
+                "type":"uppercase"
+            },
+            {
+                "level":"4",
+                "round":"1",
+                "show":"uppercase",
+                "letters":"6",
+                "zone":"5",
+                "type":"uppercase"
+            },
+            {
+                "level":"5",
+                "round":"1",
+                "show":"uppercase",
+                "letters":"8",
+                "zone":"5",
+                "type":"uppercase"
+            }
+
+        ];
+    }
+}
